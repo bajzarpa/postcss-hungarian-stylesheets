@@ -17,7 +17,7 @@
     jobb: 100px;
     betűtávolság: -1px;
     mutató: mutatóujj !fontos;
-    text-transform: kapitális;
+    szöveg-átalakítás: kapitális;
 }
 ```
 
