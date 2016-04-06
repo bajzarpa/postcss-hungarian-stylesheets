@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-spanish-stylesheets', function (opts) {
+module.exports = postcss.plugin('postcss-hingarian-stylesheets', function (opts) {
     opts = opts || {};
 
     return function (css) {
