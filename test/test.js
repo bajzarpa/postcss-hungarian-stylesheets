@@ -31,20 +31,16 @@ describe('postcss-hungarian-stylesheets', function () {
         test('a{ magasság: 300px; }', 'a{ height: 300px; }', { }, done);
     });
 
-    it('converts fent to top', function (done) {
-        test('a{ fent: 300px; }', 'a{ top: 300px; }', { }, done);
+    it('converts fel to top', function (done) {
+        test('a{ fel: 300px; }', 'a{ top: 300px; }', { }, done);
     });
 
-    it('converts lent to bottom', function (done) {
-        test('a{ lent: 300px; }', 'a{ bottom: 300px; }', { }, done);
+    it('converts bal to left', function (done) {
+        test('a{ bal: 300px; }', 'a{ left: 300px; }', { }, done);
     });
 
-    it('converts balra to left', function (done) {
-        test('a{ balra: 300px; }', 'a{ left: 300px; }', { }, done);
-    });
-
-    it('converts jobbra to right', function (done) {
-        test('a{ jobbra: 300px; }', 'a{ right: 300px; }', { }, done);
+    it('converts jobb to right', function (done) {
+        test('a{ jobb: 300px; }', 'a{ right: 300px; }', { }, done);
     });
 
     it('converts betűtávolság to letter-spacing', function (done) {
