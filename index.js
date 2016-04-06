@@ -23,7 +23,8 @@ module.exports = postcss.plugin('postcss-hungarian-stylesheets', function (opts)
             decl.prop = decl.prop.replace('mutató', 'cursor');
             decl.value = decl.value.replace('mutatóujj', 'pointer');
             decl.value = decl.value.replace('kapitális', 'uppercase');
-            decl.value = decl.value.replace('szöveg-átalakítás', 'text-transform');
+
+            decl.value = decl.prop.replace('szöveg-átalakítás', 'text-transform');
 
             if (decl.value.indexOf('!fontos') >= 0) {
                 decl.value = decl.value.replace(/\s*!fontos\s*/, '');
