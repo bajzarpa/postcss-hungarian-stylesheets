@@ -34,7 +34,7 @@
     right: 100px;
     letter-spacing: -1px;
     cursor: pointer !important;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 ```
 

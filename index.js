@@ -22,7 +22,9 @@ module.exports = postcss.plugin('postcss-hungarian-stylesheets', function (opts)
             decl.value = decl.value.replace('aláhúzás', 'underline');
             decl.prop = decl.prop.replace('mutató', 'cursor');
             decl.value = decl.value.replace('mutatóujj', 'pointer');
-            decl.value = decl.value.replace('kapitális', 'uppercase');
+            decl.value = decl.value.replace('nagybetű', 'uppercase');
+            decl.value = decl.value.replace('kisbetű', 'lowercase');
+            decl.value = decl.value.replace('kapitális', 'capitalize');
 
             decl.value = decl.prop.replace('szöveg-átalakítás', 'text-transform');
 
