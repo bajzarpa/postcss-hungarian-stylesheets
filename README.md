@@ -6,35 +6,39 @@
 
 ```css
 .foo {
-    lekerekítés: 3px;
-    háttér: #fff;
-    szélesség: 300px;
-    magasság: 200px;
-    úszás: balra;
-    fel: 10px;
-    le: 0px;
-    bal: 100px;
-    jobb: 100px;
-    betűtávolság: -1px;
-    mutató: mutatóujj !fontos;
-    szöveg-átalakítás: kapitális;
+	lekerekítés: 3px;
+	háttér: #fff;
+	szélesség: 300px;
+	magasság: 200px;
+	úszás: balra;
+	fel: 10px;
+	le: 0px;
+	bal: 100px;
+	jobb: 100px;
+	betűtávolság: -1px;
+	betűforma: dölt;
+	betűkövérség: kövér;
+	mutató: mutatóujj !fontos;
+	szöveg-átalakítás: kapitális;
 }
 ```
 
 ```css
 .foo {
-    border-radius: 3px;
-    background: #fff;
-    width: 300px;
-    height: 200px;
-    float: left;
-    top: 10px;
-    bottom: 0px;
-    left: 100px;
-    right: 100px;
-    letter-spacing: -1px;
-    cursor: pointer !important;
-    text-transform: uppercase;
+	border-radius: 3px;
+	background: #fff;
+	width: 300px;
+	height: 200px;
+	float: left;
+	top: 10px;
+	bottom: 0px;
+	left: 100px;
+	right: 100px;
+	letter-spacing: -1px;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer !important;
+	text-transform: capitalize;
 }
 ```
 
